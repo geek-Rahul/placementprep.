@@ -5,6 +5,7 @@ import Rahul from "../assets/img/Rahul.jpeg";
 import Mohit from "../assets/img/mohit.jpeg";
 import arijit from "../assets/img/Arijit.jpeg";
 import shiva from "../assets/img/shiva.jpg";
+import jagjeet from "../assets/img/jagjeet.jpeg";
 import colorSharp from "../assets/img/color-sharp.png"
 import navIcon3 from '../assets/img/nav-icon3.svg';
 import navIcon1 from '../assets/img/nav-icon1.svg';
@@ -98,6 +99,19 @@ export const About = () => {
                             <div className="icon1">
                                 <a href="https://www.instagram.com/shiva_20254/"><img src={navIcon3} alt="" /></a>
                                 <a href="https://www.linkedin.com/mwlite/in/shiva-tripathi-4186aa229"><img src={navIcon1} alt="" /></a>
+                            </div>
+                        </div>
+
+
+                        <div className="item">
+                        <img src={jagjeet} alt="Image" />
+
+
+                            <h5>Jagjeet</h5>
+                            {/* <h5>Head, Tech Team</h5> */}
+                            <div className="icon1">
+                                <a href="https://instagram.com/ja.gjeet4605?igshid=YmMyMTA2M2Y="><img src={navIcon3} alt="" /></a>
+                                <a href="https://www.linkedin.com/in/rahul-gupta-28241a263"><img src={navIcon1} alt="" /></a>
                             </div>
                         </div>
 
