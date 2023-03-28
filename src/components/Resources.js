@@ -7,6 +7,9 @@ import projImg3 from "../assets/img/DSA3.jpeg";
 import webD1 from "../assets/img/webD1.jpg";
 import webD2 from "../assets/img/webD2.jpg";
 import webD3 from "../assets/img/webD3.jpg";
+import aiml1 from "../assets/img/aiml1.jpg";
+import aiml2 from "../assets/img/aiml2.jpg";
+import aiml3 from "../assets/img/aiml3.jpg";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -63,6 +66,30 @@ export const Resources = () => {
       link: <a className="text-white" href="https://www.youtube.com/watch?v=9KzVUOF-M8w&list=PLwGdqUZWnOp2jmYb2TQGYgBYp0xGwj9V1"><BsYoutube className="butt"/></a>
     },
   ];
+
+  const resources3 = [
+    {
+      title: "AI-ML",
+      description: "Krish Naik",
+      imgUrl: aiml1,
+      link: <a className="text-white" href="https://www.youtube.com/watch?v=bPrmA1SEN2k&list=PLZoTAELRMXVPBTrWtJkn3wWQxZkmTXGwe"><BsYoutube className="butt"/></a>
+    },
+    {
+      title: "AI-ML",
+      description: "Free code Camp",
+      imgUrl: aiml2,
+      link: <a className="text-white" href="https://youtu.be/NWONeJKn6kc"><BsYoutube className="butt"/></a>
+    },
+    {
+      title: "AI-ML",
+      description: "Codebasics",
+      imgUrl: aiml3,
+      link: <a className="text-white" href="https://www.youtube.com/watch?v=gmvvaobm7eQ&list=PLeo1K3hjS3uvCeTYTeyfe0-rN5r8zn9rw"><BsYoutube className="butt"/></a>
+    },
+  ];
+
+
+
   return (
     <section className="project" id="Resources">
       <Container>
@@ -87,7 +114,7 @@ export const Resources = () => {
                 <Nav.Link className="secondTab" eventKey="second">Web Development</Nav.Link>
               </Nav.Item>
               <Nav.Item>
-                <Nav.Link eventKey="third">Tab 3</Nav.Link>
+                <Nav.Link eventKey="third">AI-ML</Nav.Link>
               </Nav.Item>
             </Nav>
             <Tab.Content>
@@ -120,7 +147,19 @@ export const Resources = () => {
                 </Row>
                     </Tab.Pane>
                     <Tab.Pane eventKey="third">
-                    <p>More material to be added soon.</p>
+                    {/* <p>More material to be added soon.</p> */}
+                    <Row>
+                  {
+                    resources3.map((project, index) => {
+                      return (
+                        <ResourcesCard
+                          key={index}
+                          {...project}
+                        />
+                      )
+                    })
+                  }
+                </Row>
                     </Tab.Pane>
             </Tab.Content>
           </Tab.Container>

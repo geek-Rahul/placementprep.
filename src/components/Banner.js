@@ -75,7 +75,7 @@ export const Banner = () => {
                 <span className="tagline">Lets Code</span>
                 <h2>{`Welcome to placementPrep.`}<></> </h2>
                 <h1><span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Web Developer", "Web Designer", "DSA" ]'><span className="wrap">{text}</span></span></h1>
-                <p>placementprep. is a platform for learning tech related topics, enginnering syllabus, they have online as well as offline courses for on-demand topics like C++, Java programming, campus placement etc.</p>
+                <p>placementprep. is a platform for learning tech related topics, enginnering syllabus, we are providing coures for DSA, Web-Development AI-ML  and campus placement etc.</p>
                   {/* <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button> */}
                   <a className="text-white" href="#connect"><button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button></a>
               </div>}

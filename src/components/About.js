@@ -24,7 +24,7 @@ export const About = () => {
             items: 3
         },
         tablet: {
-            breakpoint: { max: 3024, min: 1464 },
+            breakpoint: { max: 3024, min: 2000 },
             items: 2
         },
         mobile: {
