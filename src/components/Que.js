@@ -2,13 +2,14 @@ import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { QueCard } from "./QueCard";
 import facebook from "../assets/img/facebook.png";
 import amazon from "../assets/img/amazon-logo.png";
-import apple from "../assets/img/apple.png";
+import adobe from "../assets/img/adobe.png";
 import microsoft from "../assets/img/microsoft.png";
 import google from "../assets/img/google.png";
-import netflix from "../assets/img/netflix.png";
+import oracle from "../assets/img/oracle.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
+import { BsLink45Deg } from "react-icons/bs";
 
 
 
@@ -22,34 +23,39 @@ export const Que = () => {
   const projects = [
     {
       title: "Facebook",
-      description: "Design & Development",
+      description: "Click on the link below",
       imgUrl: facebook,
-      
+      link: <a className="text-white" href="https://www.interviewbit.com/facebook-interview-questions/"><BsLink45Deg className="butt"/></a>,
     },
     {
       title: "Amazon",
-      description: "Design & Development",
+      description:"Click on the link below",
       imgUrl: amazon,
+      link: <a className="text-white" href="https://www.interviewbit.com/amazon-interview-questions/"><BsLink45Deg className="butt"/></a>,
     },
     {
-      title: "Apple",
-      description: "Design & Development",
-      imgUrl: apple,
+      title: "Adobe",
+      description: "Click on the link below",
+      imgUrl: adobe,
+      link: <a className="text-white" href="https://www.interviewbit.com/adobe-interview-questions/"><BsLink45Deg className="butt"/></a>
     },
     {
       title: "Microsoft",
-      description: "Design & Development",
+      description: "Click on the link below",
       imgUrl: microsoft,
+      link: <a className="text-white" href="https://www.interviewbit.com/microsoft-interview-questions/"><BsLink45Deg className="butt"/></a>
     },
     {
       title: "Google",
-      description: "Design & Development",
+      description: "Click on the link below",
       imgUrl: google,
+      link: <a className="text-white" href="https://www.interviewbit.com/google-interview-questions/"><BsLink45Deg className="butt"/></a>,
     },
     {
-      title: "Netflix",
-      description: "Design & Development",
-      imgUrl: netflix,
+      title: "Oracle",
+      description: "Click on the link below",
+      imgUrl: oracle,
+      link: <a className="text-white" href="https://www.interviewbit.com/oracle-interview-questions/"><BsLink45Deg className="butt"/></a>
     },
   ];
   return (
@@ -95,10 +101,10 @@ export const Que = () => {
                 </Row>
               </Tab.Pane>
               <Tab.Pane eventKey="second">
-                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quam, quod neque provident velit, rem explicabo excepturi id illo molestiae blanditiis, eligendi dicta officiis asperiores delectus quasi inventore debitis quo.</p>
+                      <p>More material to be added soon.</p>
                     </Tab.Pane>
                     <Tab.Pane eventKey="third">
-                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quam, quod neque provident velit, rem explicabo excepturi id illo molestiae blanditiis, eligendi dicta officiis asperiores delectus quasi inventore debitis quo.</p>
+                    <p>More material to be added soon.</p>
                     </Tab.Pane>
             </Tab.Content>
           </Tab.Container>

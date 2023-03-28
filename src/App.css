@@ -49,7 +49,7 @@ body {
   justify-content: center;
   line-height: 1;
   padding-left: -100px;
-  margin-left: 5px;
+  margin-left: -42px;
 }
 
 .icon1 a{
@@ -392,7 +392,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   
 }
 .skill h5 {
-  margin-left: 208px;
+  margin-left: 140px;
   margin-top: 10px;
   
 }

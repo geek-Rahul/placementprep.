@@ -1,8 +1,8 @@
 import { Container, Col, Row } from "react-bootstrap";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-import Rahul from "../assets/img/Rahul.jpg";
-import Mohit from "../assets/img/Mohit.jpeg";
+import Rahul from "../assets/img/Rahul.jpeg";
+import Mohit from "../assets/img/mohit.jpeg";
 import arijit from "../assets/img/Arijit.jpeg";
 import shiva from "../assets/img/shiva.jpg";
 import colorSharp from "../assets/img/color-sharp.png"
@@ -39,7 +39,7 @@ export const About = () => {
                     <Col>
                         <div className="skill-">
                             <h2>
-                                About
+                                About us
                             </h2>
                             <p>Developers of this website</p>
                         </div>
@@ -55,10 +55,10 @@ export const About = () => {
 
 
                             <h5>Rahul Gupta</h5>
-                            <h5>Head, Tech Team</h5>
+                            {/* <h5>Head, Tech Team</h5> */}
                             <div className="icon1">
-                                <a href=""><img src={navIcon3} alt="" /></a>
-                                <a href="#"><img src={navIcon1} alt="" /></a>
+                                <a href="https://instagram.com/_itz__rahul_gupta?igshid=ZDdkNTZiNTM="><img src={navIcon3} alt="" /></a>
+                                <a href="https://www.linkedin.com/in/rahul-gupta-28241a263"><img src={navIcon1} alt="" /></a>
                             </div>
                         </div>
 
@@ -68,10 +68,10 @@ export const About = () => {
 
 
                             <h5>Mohit Jakhmola</h5>
-                            <h5>Head, Tech Team</h5>
+                            {/* <h5>Head, Tech Team</h5> */}
                             <div className="icon1">
-                                <a href=""><img src={navIcon3} alt="" /></a>
-                                <a href="#"><img src={navIcon1} alt="" /></a>
+                                <a href="https://instagram.com/sus_mohit?igshid=YmMyMTA2M2Y="><img src={navIcon3} alt="" /></a>
+                                <a href="https://www.linkedin.com/in/novice-mohit-73354722b"><img src={navIcon1} alt="" /></a>
                             </div>
                         </div>
 
@@ -81,10 +81,10 @@ export const About = () => {
 
 
                             <h5>Arijit Kar</h5>
-                            <h5>Head, Tech Team</h5>
+                            {/* <h5>Head, Tech Team</h5> */}
                             <div className="icon1">
-                                <a href=""><img src={navIcon3} alt="" /></a>
-                                <a href="#"><img src={navIcon1} alt="" /></a>
+                                <a href="https://instagram.com/demonicak_1?igshid=YmMyMTA2M2Y="><img src={navIcon3} alt="" /></a>
+                                <a href="https://www.linkedin.com/in/arijit-kar-21b091210/"><img src={navIcon1} alt="" /></a>
                             </div>
                         </div>
 
@@ -94,10 +94,10 @@ export const About = () => {
 
 
                             <h5>Shiva Tripathi</h5>
-                            <h5>Head, Tech Team</h5>
+                            {/* <h5>Head, Tech Team</h5> */}
                             <div className="icon1">
-                                <a href=""><img src={navIcon3} alt="" /></a>
-                                <a href="#"><img src={navIcon1} alt="" /></a>
+                                <a href="https://www.instagram.com/shiva_20254/"><img src={navIcon3} alt="" /></a>
+                                <a href="https://www.linkedin.com/mwlite/in/shiva-tripathi-4186aa229"><img src={navIcon1} alt="" /></a>
                             </div>
                         </div>
 
