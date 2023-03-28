@@ -4,6 +4,7 @@ import logo from '../assets/img/logo.svg';
 import navIcon1 from '../assets/img/nav-icon1.svg';
 import navIcon2 from '../assets/img/nav-icon2.svg';
 import navIcon3 from '../assets/img/nav-icon3.svg';
+import { FaLaptopCode } from "react-icons/fa";
 
 
 export const NavBar = () => {
@@ -40,7 +41,8 @@ export const NavBar = () => {
         <Navbar expand="md" className={scrolled ? "scrolled" : ""}>
         <Container>
         <Navbar.Brand href="/">
-            <img src={logo} alt="Logo" />
+            {/* <img src={logo} alt="Logo" /> */}
+            <a className="text-white" href="#"><FaLaptopCode className="mainlogo"/></a>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav">
             <span className="navbar-toggler-icon"></span>
@@ -55,7 +57,7 @@ export const NavBar = () => {
             </Nav>
             <span className="navbar-text">
                 <div className="social-icon">
-                <a href=""><img src={navIcon1} alt="" /></a>
+                <a href="#"><img src={navIcon1} alt="" /></a>
                 <a href="#"><img src={navIcon2} alt="" /></a>
                 <a href="#"><img src={navIcon3} alt="" /></a>
                 </div>

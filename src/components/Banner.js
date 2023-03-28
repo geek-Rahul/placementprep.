@@ -46,7 +46,7 @@ export const Banner = () => {
       setIsDeleting(false);
       setLoopNum(loopNum + 1);
       setIndex(1);
-      setDelta(500);
+      setDelta(100);
     } else {
       setIndex(prevIndex => prevIndex + 1);
     }
@@ -76,7 +76,8 @@ export const Banner = () => {
                 <h2>{`Welcome to placementPrep.`}<></> </h2>
                 <h1><span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Web Developer", "Web Designer", "DSA" ]'><span className="wrap">{text}</span></span></h1>
                 <p>placementprep. is a platform for learning tech related topics, enginnering syllabus, they have online as well as offline courses for on-demand topics like C++, Java programming, campus placement etc.</p>
-                  <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
+                  {/* <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button> */}
+                  <a className="text-white" href="#connect"><button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button></a>
               </div>}
             </TrackVisibility>
           </Col>
