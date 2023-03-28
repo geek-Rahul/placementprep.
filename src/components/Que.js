@@ -66,7 +66,7 @@ export const Que = () => {
             <TrackVisibility>
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__bounce": ""}>
-            <h2>DSA Interview Qustions</h2>
+            <h2>DSA Interview Questions</h2>
             <p>Lets practice DSA question asked in interview</p>
               </div>}
             </TrackVisibility>

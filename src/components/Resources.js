@@ -36,7 +36,7 @@ export const Resources = () => {
     },
     {
       title: "DSA",
-      description: "Anpna College",
+      description: "Apna College",
       imgUrl: projImg3,
       link: <a className="text-white" href="https://www.youtube.com/watch?v=z9bZufPHFLU&list=PLfqMhTWNBTe0b2nM6JHVCnAkhQRGiZMSJ"><BsYoutube className="butt"/></a>
     },
@@ -84,7 +84,7 @@ export const Resources = () => {
                 <Nav.Link eventKey="first">DSA</Nav.Link>
               </Nav.Item>
               <Nav.Item>
-                <Nav.Link eventKey="second">Web Development</Nav.Link>
+                <Nav.Link className="secondTab" eventKey="second">Web Development</Nav.Link>
               </Nav.Item>
               <Nav.Item>
                 <Nav.Link eventKey="third">Tab 3</Nav.Link>
