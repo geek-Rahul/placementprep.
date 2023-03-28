@@ -2,7 +2,7 @@ import { Container, Col, Row } from "react-bootstrap";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import Rahul from "../assets/img/Rahul.jpeg";
-import Mohit from "../assets/img/mohit.jpeg";
+import Mohit from "../assets/img/Mohit.jpeg";
 import arijit from "../assets/img/Arijit.jpeg";
 import shiva from "../assets/img/shiva.jpg";
 import jagjeet from "../assets/img/jagjeet.jpeg";
