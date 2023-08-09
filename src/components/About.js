@@ -65,68 +65,7 @@ export const About = () => {
                         </div>
 
 
-                        <div className="item">
-                        <img src={Mohit} alt="Image" />
-
-
-                            <h5>Mohit Jakhmola</h5>
-                            {/* <h5>Head, Tech Team</h5> */}
-                            <div className="icon1">
-                                <a href="https://instagram.com/sus_mohit?igshid=YmMyMTA2M2Y="><img src={navIcon3} alt="" /></a>
-                                <a href="https://www.linkedin.com/in/novice-mohit-73354722b"><img src={navIcon1} alt="" /></a>
-                            </div>
-                        </div>
-
-
-                        <div className="item">
-                        <img src={arijit} alt="Image" />
-
-
-                            <h5>Arijit Kar</h5>
-                            {/* <h5>Head, Tech Team</h5> */}
-                            <div className="icon1">
-                                <a href="https://instagram.com/demonicak_1?igshid=YmMyMTA2M2Y="><img src={navIcon3} alt="" /></a>
-                                <a href="https://www.linkedin.com/in/arijit-kar-21b091210/"><img src={navIcon1} alt="" /></a>
-                            </div>
-                        </div>
-
-
-                        <div className="item">
-                        <img src={shiva} alt="Image" />
-
-
-                            <h5>Shiva Tripathi</h5>
-                            {/* <h5>Head, Tech Team</h5> */}
-                            <div className="icon1">
-                                <a href="https://www.instagram.com/shiva_20254/"><img src={navIcon3} alt="" /></a>
-                                <a href="https://www.linkedin.com/mwlite/in/shiva-tripathi-4186aa229"><img src={navIcon1} alt="" /></a>
-                            </div>
-                        </div>
-
-
-                        <div className="item">
-                        <img src={jagjeet} alt="Image" />
-
-
-                            <h5>Jagjeet</h5>
-                            {/* <h5>Head, Tech Team</h5> */}
-                            <div className="icon1">
-                                <a href="https://instagram.com/ja.gjeet4605?igshid=YmMyMTA2M2Y="><img src={navIcon3} alt="" /></a>
-                                <a href="https://www.linkedin.com/in/jagjeet-singh-a21359252/"><img src={navIcon1} alt="" /></a>
-                            </div>
-                        </div>
-
-                        <div className="item">
-                        <img src={Abhishek} alt="Image" />
-
-
-                            <h5>Abhishek</h5>
-                            {/* <h5>Head, Tech Team</h5> */}
-                            <div className="icon1">
-                                <a href="http://instagram.com/abhi_pi_0"><img src={navIcon3} alt="" /></a>
-                                <a href="https://www.linkedin.com/in/abhishek-80989726b"><img src={navIcon1} alt="" /></a>
-                            </div>
-                        </div>
+                        
 
                     </Carousel>
                 </Row>
@@ -135,3 +74,76 @@ export const About = () => {
         </section>
     )
 }
+
+
+
+
+
+
+
+
+
+
+
+// {/* <div className="item">
+//                         <img src={Mohit} alt="Image" />
+
+
+//                             <h5>Mohit Jakhmola</h5>
+//                             {/* <h5>Head, Tech Team</h5> */}
+//                             <div className="icon1">
+//                                 <a href="https://instagram.com/sus_mohit?igshid=YmMyMTA2M2Y="><img src={navIcon3} alt="" /></a>
+//                                 <a href="https://www.linkedin.com/in/novice-mohit-73354722b"><img src={navIcon1} alt="" /></a>
+//                             </div>
+//                         </div> */}
+
+
+                        // <div className="item">
+                        // <img src={arijit} alt="Image" />
+
+
+                        //     <h5>Arijit Kar</h5>
+                        //     {/* <h5>Head, Tech Team</h5> */}
+                        //     <div className="icon1">
+                        //         <a href="https://instagram.com/demonicak_1?igshid=YmMyMTA2M2Y="><img src={navIcon3} alt="" /></a>
+                        //         <a href="https://www.linkedin.com/in/arijit-kar-21b091210/"><img src={navIcon1} alt="" /></a>
+                        //     </div>
+                        // </div>
+
+
+                        // <div className="item">
+                        // <img src={shiva} alt="Image" />
+
+
+                        //     <h5>Shiva Tripathi</h5>
+                        //     {/* <h5>Head, Tech Team</h5> */}
+                        //     <div className="icon1">
+                        //         <a href="https://www.instagram.com/shiva_20254/"><img src={navIcon3} alt="" /></a>
+                        //         <a href="https://www.linkedin.com/mwlite/in/shiva-tripathi-4186aa229"><img src={navIcon1} alt="" /></a>
+                        //     </div>
+                        // </div>
+
+
+                        // <div className="item">
+                        // <img src={jagjeet} alt="Image" />
+
+
+                        //     <h5>Jagjeet</h5>
+                        //     {/* <h5>Head, Tech Team</h5> */}
+                        //     <div className="icon1">
+                        //         <a href="https://instagram.com/ja.gjeet4605?igshid=YmMyMTA2M2Y="><img src={navIcon3} alt="" /></a>
+                        //         <a href="https://www.linkedin.com/in/jagjeet-singh-a21359252/"><img src={navIcon1} alt="" /></a>
+                        //     </div>
+                        // </div>
+
+                        // <div className="item">
+                        // <img src={Abhishek} alt="Image" />
+
+
+                        //     <h5>Abhishek</h5>
+                        //     {/* <h5>Head, Tech Team</h5> */}
+                        //     <div className="icon1">
+                        //         <a href="http://instagram.com/abhi_pi_0"><img src={navIcon3} alt="" /></a>
+                        //         <a href="https://www.linkedin.com/in/abhishek-80989726b"><img src={navIcon1} alt="" /></a>
+                        //     </div>
+                        // </div>
