@@ -12,7 +12,7 @@ export const Banner = () => {
   const [text, setText] = useState('');
   const [delta, setDelta] = useState(300 - Math.random() * 100);
   const [index, setIndex] = useState(1);
-  const toRotate = ["Web Development", "Web Designe", "DSA"];
+  const toRotate = ["Web Development", "Web Design", "DSA"];
   const period = 2000;
 
 
@@ -74,7 +74,7 @@ export const Banner = () => {
               <div className={isVisible ? "animate__animated animate__bounce" : ""}>
                 <span className="tagline">Lets Code</span>
                 <h2>{`Welcome to placementPrep.`}<></> </h2>
-                <h1><span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Web Developer", "Web Designer", "DSA" ]'><span className="wrap">{text}</span></span></h1>
+                <h1><span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Web Developement", "Web Design", "DSA" ]'><span className="wrap">{text}</span></span></h1>
                 <p>placementprep. is a platform for learning tech related topics, enginnering syllabus, we are providing coures for DSA, Web-Development AI-ML  and campus placement etc.</p>
                   {/* <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button> */}
                   <a className="text-white" href="#connect"><button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button></a>
